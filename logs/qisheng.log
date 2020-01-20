@@ -1,0 +1,18 @@
+2020-01-20 16:05:42,064:INFO main (StartupInfoLogger.java:55) - Starting Test01 on DELL with PID 22440 (started by Haosion in F:\myproject\ex-demo-thread)
+2020-01-20 16:05:42,066:DEBUG main (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-01-20 16:05:42,066:INFO main (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-01-20 16:05:43,569:INFO main (StartupInfoLogger.java:61) - Started Test01 in 1.68 seconds (JVM running for 3.028)
+2020-01-20 16:05:43,719:INFO main (Test01.java:86) - 开始啦！！
+2020-01-20 16:05:43,719:INFO main (Test01.java:90) - 结束啦！！
+2020-01-20 16:10:18,832:INFO main (StartupInfoLogger.java:55) - Starting Test01 on DELL with PID 7776 (started by Haosion in F:\myproject\ex-demo-thread)
+2020-01-20 16:10:18,834:DEBUG main (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-01-20 16:10:18,835:INFO main (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-01-20 16:10:20,373:INFO main (StartupInfoLogger.java:61) - Started Test01 in 1.723 seconds (JVM running for 3.048)
+2020-01-20 16:10:20,773:INFO main (AClass.java:24) - 调用aFunction函数
+2020-01-20 16:10:20,789:DEBUG main (BaseJdbcLogger.java:143) - ==>  Preparing: insert into user(name,age) values(?,?) 
+2020-01-20 16:10:20,812:DEBUG main (BaseJdbcLogger.java:143) - ==> Parameters: ww(String), 10(Integer)
+2020-01-20 16:10:20,825:DEBUG main (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-01-20 16:10:20,825:INFO main (AClass.java:31) - 调用aInnerFunction函数
+2020-01-20 16:10:20,826:DEBUG main (BaseJdbcLogger.java:143) - ==>  Preparing: insert into user(name,age) values(?,?) 
+2020-01-20 16:10:20,826:DEBUG main (BaseJdbcLogger.java:143) - ==> Parameters: ww(String), 10(Integer)
+2020-01-20 16:10:20,827:DEBUG main (BaseJdbcLogger.java:143) - <==    Updates: 1
